@@ -60,6 +60,8 @@ function getMovieData(event) {
       })
       .then(function (huh) {
         console.log(huh);
+        var test = "test";
+        console.log(test);
       });
 
     // outside of for loop but inside if statement
@@ -77,4 +79,3 @@ init();
 // get the inputs value on enter key press
 // grab data related to the users search
 // inject the movie items into the dom based on users search
-console.log("test");
