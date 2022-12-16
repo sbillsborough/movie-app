@@ -43,6 +43,10 @@ a {
   align-items: center;
 }
 
+.hide {
+  display: none;
+}
+
 /*** CUSTOM STYLES ***/
 
 /* Header Styles */
@@ -66,6 +70,37 @@ h1.main-header {
   text-align: center;
   margin: 15px 0;
   color: var(--primary);
+}
+
+.detail-display {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 80%;
+  background: (rgba(0, 0, 0, 0.6));
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.detail-display h2 {
+  color: var(--color);
+}
+
+.detail-display > *:not(h2) {
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+
+.detail-display p {
+  line-height: 1.4;
+}
+
+.detail-display a {
+  color: var(--color);
+  border-bottom: 1px dashed var(--color);
+  display: inline-block;
 }
 
 .search {
